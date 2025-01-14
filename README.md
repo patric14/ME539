@@ -1,3 +1,7 @@
+This repository is a fork of the repository for Purdue "ME 539 Introduction to Scientific Machine Learning," taught in the Spring of 2025 by Dr. Ilias Bilionis. Original repository is [here](https://github.com/patric14/ME539).
+
+Original description:
+
 # ME 539 -  Introduction to Scientific Machine Learning
 
 This repository includes the source code for the course "ME 539 Introduction to Scientific Machine Learning," which is being taught during Fall 2024 by Dr. Alex Alberts at Purdue University.
