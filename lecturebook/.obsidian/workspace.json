@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "d066991caf4a26ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2e69ac0290adba7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64864c73d02afe46",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "lecture01/Lecture 1_5.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Lecture 1_5"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f38801be2644434b",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b04bd2ffd60052b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a9e7bbfe1cf7000",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9e90b6f5c4437e8d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ea99f8680f01a8bd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "54c8748b0b0db6de",
+    "type": "split",
+    "children": [
+      {
+        "id": "54263980c732a215",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ad80d3b8c137838",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "9b5923efecdaaed2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "d87ed92c15512abe",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "98e19061afe9b648",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "64864c73d02afe46",
+  "lastOpenFiles": [
+    "lecture01/Lecture 1_2.pdf",
+    "lecture01/Lecture 1_1.pdf",
+    "supervised_learning.md",
+    "unsupervised_learning.md",
+    "bibliography.md",
+    "introduction.md",
+    "neural_networks.md",
+    "lecture01/reading-01.md",
+    "lecture01/intro.md",
+    "advanced_methods.md",
+    "principles_of_bi.md"
+  ]
+}
