@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "lecture03/Lecture 3_4.pdf"
+                "file": "lecture04/Lecture 4_2.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Lecture 3_4"
+              "title": "Lecture 4_2"
             }
           }
         ]
@@ -158,20 +158,20 @@
   },
   "active": "64864c73d02afe46",
   "lastOpenFiles": [
+    "lecture04/Lecture 4_1.pdf",
+    "lecture03/Lecture 3_6.pdf",
+    "lecture03/Lecture 3_5.pdf",
+    "lecture03/Lecture 3_4.pdf",
     "lecture03/Lecture 3_3.pdf",
     "lecture03/Lecture 3_2.pdf",
     "lecture03/Lecture 3_1.pdf",
-    "lecture02/Lecture 2_5.pdf",
+    "lecture03/intro.md",
+    "lecture04/Lecture 4_6.pdf",
+    "lecture04/Lecture 4_4.pdf",
     "lecture04/Lecture 4_3.pdf",
-    "lecture04/Lecture 4_1.pdf",
     "lecture04/Lecture 4_2.pdf",
     "lecture04/intro.md",
-    "lecture03/Lecture 3_4.pdf",
-    "lecture03/Lecture 3_5.pdf",
-    "lecture03/Lecture 3_6.pdf",
-    "lecture04/Lecture 4_4.pdf",
     "lecture02/intro.md",
-    "lecture03/intro.md",
     "supervised_learning.md",
     "unsupervised_learning.md",
     "bibliography.md",
