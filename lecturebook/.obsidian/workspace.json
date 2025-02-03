@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "lecture02/Lecture 2_4.pdf"
+                "file": "lecture06/Lecture 6_1.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Lecture 2_4"
+              "title": "Lecture 6_1"
             }
           }
         ]
@@ -158,17 +158,19 @@
   },
   "active": "64864c73d02afe46",
   "lastOpenFiles": [
-    "homework/hw1/homework-01.pdf",
-    "homework/hw1/homework-01.ipynb",
-    "homework/hw1/homework-01.html",
-    "homework/hw1/handwritten1.pdf",
-    "homework/hw1",
-    "homework/homework-01.pdf",
-    "lecture02/Lecture 2_5.pdf",
-    "lecture02/Lecture 2_4.pdf",
-    "lecture02/Lecture 2_3.pdf",
-    "lecture02/Lecture 2_1.pdf",
-    "lecture02/Lecture 2_2.pdf",
+    "advanced_methods.md",
+    "lecture07/intro.md",
+    "lecture06/Lecture 6_3.pdf",
+    "lecture05/Lecture 5_1.pdf",
+    "lecture05/intro.md",
+    "lecture05/Lecture 5_4.pdf",
+    "lecture05/Lecture 5_2.pdf",
+    "lecture05/Lecture 5_3.pdf",
+    "lecture06/Lecture 6_1.pdf",
+    "lecture03/Lecture 3_3.pdf",
+    "lecture03/Lecture 3_2.pdf",
+    "lecture04/Lecture 4_1.pdf",
+    "lecture06/Lecture 6_4.pdf",
     "lecture03/intro.md",
     "lecture04/intro.md",
     "lecture02/intro.md",
@@ -179,7 +181,6 @@
     "neural_networks.md",
     "lecture01/reading-01.md",
     "lecture01/intro.md",
-    "advanced_methods.md",
     "principles_of_bi.md"
   ]
 }
