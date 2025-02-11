@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "lecture06/Lecture 6_1.pdf"
+                "file": "lecture05/Lecture 5_2.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Lecture 6_1"
+              "title": "Lecture 5_2"
             }
           }
         ]
@@ -38,7 +38,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -158,19 +159,20 @@
   },
   "active": "64864c73d02afe46",
   "lastOpenFiles": [
+    "homework/hw2/homework-02.ipynb",
+    "homework/hw2/homework-02.html",
+    "homework/hw2/B_data.csv",
+    "homework/hw2/homework-02.pdf",
+    "homework/hw2",
+    "homework/homework-02.html",
+    "homework/B_data.csv",
+    "lecture05/Lecture 5_1.pdf",
+    "lecture06/Lecture 6_1.pdf",
+    "lecture05/Lecture 5_4.pdf",
+    "lecture05/Lecture 5_3.pdf",
     "advanced_methods.md",
     "lecture07/intro.md",
-    "lecture06/Lecture 6_3.pdf",
-    "lecture05/Lecture 5_1.pdf",
     "lecture05/intro.md",
-    "lecture05/Lecture 5_4.pdf",
-    "lecture05/Lecture 5_2.pdf",
-    "lecture05/Lecture 5_3.pdf",
-    "lecture06/Lecture 6_1.pdf",
-    "lecture03/Lecture 3_3.pdf",
-    "lecture03/Lecture 3_2.pdf",
-    "lecture04/Lecture 4_1.pdf",
-    "lecture06/Lecture 6_4.pdf",
     "lecture03/intro.md",
     "lecture04/intro.md",
     "lecture02/intro.md",
