@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "lecture05/Lecture 5_2.pdf"
+                "file": "lecture10/Lecture 10_1.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Lecture 5_2"
+              "title": "Lecture 10_1"
             }
           }
         ]
@@ -159,6 +159,9 @@
   },
   "active": "64864c73d02afe46",
   "lastOpenFiles": [
+    "lecture10/Lecture 10_2.pdf",
+    "lecture08/Lecture 8_1.pdf",
+    "lecture05/Lecture 5_2.pdf",
     "homework/hw2/homework-02.ipynb",
     "homework/hw2/homework-02.html",
     "homework/hw2/B_data.csv",
@@ -167,9 +170,6 @@
     "homework/homework-02.html",
     "homework/B_data.csv",
     "lecture05/Lecture 5_1.pdf",
-    "lecture06/Lecture 6_1.pdf",
-    "lecture05/Lecture 5_4.pdf",
-    "lecture05/Lecture 5_3.pdf",
     "advanced_methods.md",
     "lecture07/intro.md",
     "lecture05/intro.md",
