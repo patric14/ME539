@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "lecture10/Lecture 10_1.pdf"
+                "file": "lecture09/Lecture 9_4.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Lecture 10_1"
+              "title": "Lecture 9_4"
             }
           }
         ]
@@ -159,17 +159,17 @@
   },
   "active": "64864c73d02afe46",
   "lastOpenFiles": [
+    "lecture10/Lecture 10_1.pdf",
     "lecture10/Lecture 10_2.pdf",
+    "lecture10/Lecture 10_3.pdf",
+    "lecture10/Lecture 10_4.pdf",
+    "lecture09/Lecture 9_3.pdf",
+    "lecture09/Lecture 9_4.pdf",
+    "lecture09/Lecture 9_2.pdf",
+    "lecture09/Lecture 9_1.pdf",
     "lecture08/Lecture 8_1.pdf",
     "lecture05/Lecture 5_2.pdf",
     "homework/hw2/homework-02.ipynb",
-    "homework/hw2/homework-02.html",
-    "homework/hw2/B_data.csv",
-    "homework/hw2/homework-02.pdf",
-    "homework/hw2",
-    "homework/homework-02.html",
-    "homework/B_data.csv",
-    "lecture05/Lecture 5_1.pdf",
     "advanced_methods.md",
     "lecture07/intro.md",
     "lecture05/intro.md",
