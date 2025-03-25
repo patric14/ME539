@@ -18880,10 +18880,12 @@ z
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[620]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Your code here</span>
+
+<span class="c1"># Using this from the lecture notes. It supports linear functions as well.</span>
 <span class="k">def</span> <span class="nf">get_polynomial_design_matrix</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">degree</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Return the polynomial design matrix of ``degree`` evaluated at ``x``.</span>
 <span class="sd">    </span>
@@ -18905,14 +18907,6 @@ z
     <span class="n">x_train</span><span class="p">[:,</span> <span class="kc">None</span><span class="p">],</span>
     <span class="n">degree</span>
 <span class="p">)</span>
-
-<span class="sd">&#39;&#39;&#39;</span>
-<span class="sd">w_poly, _, _, _ = np.linalg.lstsq(</span>
-<span class="sd">    Phi_poly_train,</span>
-<span class="sd">    y_train,</span>
-<span class="sd">    rcond=None</span>
-<span class="sd">)</span>
-<span class="sd">&#39;&#39;&#39;</span>
 
 <span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">BayesianRidge</span>
 
@@ -19022,7 +19016,7 @@ alpha = 6.29e-08
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[623]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># your code here</span>
@@ -19043,41 +19037,6 @@ alpha = 6.29e-08
     <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 
 <span class="n">expectionVsReality</span><span class="p">(</span><span class="n">y_predict</span><span class="p">,</span> <span class="n">y_valid</span><span class="p">)</span>
-
-<span class="sd">&#39;&#39;&#39;</span>
-<span class="sd">phi_poly_predict = get_polynomial_design_matrix(</span>
-<span class="sd">    xx[:, None],</span>
-<span class="sd">    degree</span>
-<span class="sd">)</span>
-
-<span class="sd">y_predict = phi_poly_predict @ w_poly</span>
-
-<span class="sd">plt.figure()</span>
-<span class="sd">plt.plot(</span>
-<span class="sd">    x_train,</span>
-<span class="sd">    y_train,</span>
-<span class="sd">    &#39;ro&#39;,</span>
-<span class="sd">    markersize=2,</span>
-<span class="sd">    label=&#39;Training data&#39;</span>
-<span class="sd">)</span>
-<span class="sd">plt.plot(</span>
-<span class="sd">    x_valid,</span>
-<span class="sd">    y_valid,</span>
-<span class="sd">    &#39;bx&#39;,</span>
-<span class="sd">    markersize=2,</span>
-<span class="sd">    label=&#39;Validation data&#39;</span>
-<span class="sd">)</span>
-<span class="sd">plt.plot(</span>
-<span class="sd">    xx,</span>
-<span class="sd">    y_predict,</span>
-<span class="sd">    label=&#39;Linear Regression&#39;</span>
-<span class="sd">)</span>
-<span class="sd">plt.xlabel(&#39;$\\epsilon$ (strain in %)&#39;)</span>
-<span class="sd">plt.ylabel(&#39;$\\sigma$ (stress in MPa)&#39;)</span>
-<span class="sd">plt.legend(loc=&#39;best&#39;, frameon=False)</span>
-<span class="sd">sns.despine(trim=True);</span>
-<span class="sd">plt.show()</span>
-<span class="sd">&#39;&#39;&#39;</span>
 </pre></div>
 
      </div>
@@ -19934,7 +19893,7 @@ L 390.710101 273.312
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[623]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -22101,27 +22060,12 @@ z
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[626]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># your code here</span>
-<span class="sd">&#39;&#39;&#39;</span>
-<span class="sd">def get_model_mean_std(</span>
-<span class="sd">    model,</span>
-<span class="sd">    phi_func,</span>
-<span class="sd">    phi_func_args=()</span>
-<span class="sd">):</span>
-<span class="sd">    Phi_xx = phi_func(</span>
-<span class="sd">        *phi_func_args</span>
-<span class="sd">    )</span>
-<span class="sd">    yy_mean, yy_measured_std = model.predict(</span>
-<span class="sd">        Phi_xx,</span>
-<span class="sd">        return_std=True</span>
-<span class="sd">    )</span>
 
-<span class="sd">    return (yy_mean, yy_measured_std)</span>
-<span class="sd">&#39;&#39;&#39;</span>
-    
+<span class="c1"># Pulled from lecture notes and modified</span>
 <span class="k">def</span> <span class="nf">plot_posterior_predictive</span><span class="p">(</span>
     <span class="c1"># From the textbook</span>
     <span class="n">model</span><span class="p">,</span>
@@ -25628,10 +25572,12 @@ z
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[628]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># your code here</span>
+
+<span class="c1"># Pulled from lecture notes</span>
 <span class="k">def</span> <span class="nf">plot_posterior_samples</span><span class="p">(</span>
     <span class="n">model</span><span class="p">,</span>
     <span class="n">xx</span><span class="p">,</span>
@@ -52426,6 +52372,12 @@ z
 
 </div>
 
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>(Plotted twice so intervals can clearly be seen without being obscured by the observed data).</p>
+
+</div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
