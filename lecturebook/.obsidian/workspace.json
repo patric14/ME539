@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "lecture15/Lecture 15_1.pdf"
+                "file": "lecture17/Lecture 17_2.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Lecture 15_1"
+              "title": "Lecture 17_2"
             }
           }
         ]
@@ -159,17 +159,17 @@
   },
   "active": "64864c73d02afe46",
   "lastOpenFiles": [
-    "homework/hw4/cpatrick_me539_hw4.pdf",
-    "homework/hw4/homework-04.html",
-    "homework/hw4/compressor_data.xlsx",
-    "homework/hw4/challenger_data.csv",
-    "lecture14/Lecture 14_1c.pdf",
-    "lecture14/Lecture 14_1b.pdf",
-    "lecture14/Lecture 14_1a.pdf",
-    "lecture13/Lecture 13_5.pdf",
-    "lecture13/Lecture 13_1.pdf",
-    "lecture14/Lecture 14_3.pdf",
-    "lecture14/Lecture 14_4.pdf",
+    "lecture17/Lecture 17_3.pdf",
+    "lecture17/Lecture 17_1.pdf",
+    "lecture15/Lecture 15_1.pdf",
+    "lecture20/Lecture 20_6.pdf",
+    "lecture20/Lecture 20_5.pdf",
+    "lecture20/Lecture 20_4.pdf",
+    "lecture20/Lecture 20_3.pdf",
+    "lecture20/Lecture 20_2.pdf",
+    "lecture20/Lecture 20_1.pdf",
+    "lecture19/Lecture 19_6.pdf",
+    "lecture19/Lecture 19_7.pdf",
     "advanced_methods.md",
     "lecture07/intro.md",
     "lecture05/intro.md",
