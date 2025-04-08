@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "lecture17/Lecture 17_2.pdf"
+                "file": "lecture20/Lecture 20_1.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Lecture 17_2"
+              "title": "Lecture 20_1"
             }
           }
         ]
@@ -159,17 +159,19 @@
   },
   "active": "64864c73d02afe46",
   "lastOpenFiles": [
-    "lecture17/Lecture 17_3.pdf",
-    "lecture17/Lecture 17_1.pdf",
-    "lecture15/Lecture 15_1.pdf",
-    "lecture20/Lecture 20_6.pdf",
-    "lecture20/Lecture 20_5.pdf",
-    "lecture20/Lecture 20_4.pdf",
-    "lecture20/Lecture 20_3.pdf",
-    "lecture20/Lecture 20_2.pdf",
+    "homework/hw5/cpatrick_me539_hw5.pdf",
+    "homework/hw5/homework-05.html",
+    "lecture20/intro.md",
     "lecture20/Lecture 20_1.pdf",
+    "lecture19/Lecture 19_1.pdf",
+    "lecture19/Lecture 19_2.pdf",
+    "lecture19/Lecture 19_3.pdf",
+    "lecture19/Lecture 19_4.pdf",
+    "lecture19/Lecture 19_5.pdf",
     "lecture19/Lecture 19_6.pdf",
     "lecture19/Lecture 19_7.pdf",
+    "lecture20/Lecture 20_4.pdf",
+    "homework/hw5/galaxies.png",
     "advanced_methods.md",
     "lecture07/intro.md",
     "lecture05/intro.md",
