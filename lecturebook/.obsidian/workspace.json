@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "lecture20/Lecture 20_1.pdf"
+                "file": "lecture21/Lecture 21_1.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Lecture 20_1"
+              "title": "Lecture 21_1"
             }
           }
         ]
@@ -157,12 +157,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "64864c73d02afe46",
+  "active": "2a9e7bbfe1cf7000",
   "lastOpenFiles": [
+    "homework/hw6/mauna_loa_co2.txt",
+    "lecture20/Lecture 20_1.pdf",
     "homework/hw5/cpatrick_me539_hw5.pdf",
     "homework/hw5/homework-05.html",
     "lecture20/intro.md",
-    "lecture20/Lecture 20_1.pdf",
     "lecture19/Lecture 19_1.pdf",
     "lecture19/Lecture 19_2.pdf",
     "lecture19/Lecture 19_3.pdf",
@@ -170,7 +171,6 @@
     "lecture19/Lecture 19_5.pdf",
     "lecture19/Lecture 19_6.pdf",
     "lecture19/Lecture 19_7.pdf",
-    "lecture20/Lecture 20_4.pdf",
     "homework/hw5/galaxies.png",
     "advanced_methods.md",
     "lecture07/intro.md",
