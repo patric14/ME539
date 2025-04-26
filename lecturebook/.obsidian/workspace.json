@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "lecture19/Lecture 19_7.pdf"
+                "file": "lecture23/Lecture 23_3.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Lecture 19_7"
+              "title": "Lecture 23_3"
             }
           }
         ]
@@ -159,17 +159,17 @@
   },
   "active": "64864c73d02afe46",
   "lastOpenFiles": [
-    "lecture19/Lecture 19_6.pdf",
-    "lecture19/Lecture 19_5.pdf",
-    "lecture19/Lecture 19_4.pdf",
-    "lecture19/Lecture 19_3.pdf",
-    "lecture19/Lecture 19_2.pdf",
-    "lecture19/Lecture 19_1.pdf",
-    "lecture20/Lecture 20_6.pdf",
-    "lecture20/Lecture 20_5.pdf",
-    "lecture20/Lecture 20_2.pdf",
-    "lecture20/Lecture 20_1.pdf",
     "lecture23/Lecture 23_2.pdf",
+    "lecture23/Lecture 23_1.pdf",
+    "lecture23/Lecture 23_7.pdf",
+    "lecture23/Lecture 23_8.pdf",
+    "lecture23/Lecture 23_9.pdf",
+    "lecture23/Lecture 23_5.pdf",
+    "lecture23/Lecture 23_6.pdf",
+    "homework/hw6/homework-06.pdf",
+    "homework/hw6/homework-06.html",
+    "lecture19/Lecture 19_7.pdf",
+    "lecture19/Lecture 19_6.pdf",
     "lecture21/intro.md",
     "_build/html/_sources/lecture17/intro.md",
     "lecture17/intro.md",
