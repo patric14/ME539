@@ -1,3 +1,6 @@
 lecturebook/_build
 .DS_Store
 *.pdf
+lecturebook/homework/hw7/airfoil_self_noise.dat
+lecturebook/homework/hw7/human_activity_data.npz
+lecturebook/homework/hw7/motor.dat
