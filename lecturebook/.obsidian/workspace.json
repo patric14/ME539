@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "lecture26/Lecture 26_3.pdf"
+                "file": "lecture28/Lecture 28_6.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Lecture 26_3"
+              "title": "Lecture 28_6"
             }
           }
         ]
@@ -159,17 +159,19 @@
   },
   "active": "64864c73d02afe46",
   "lastOpenFiles": [
-    "homework/hw7/airfoil_self_noise.dat",
-    "homework/hw7/homework-07.ipynb",
-    "homework/hw7/homework-08.ipynb",
-    "homework/hw7/human_activity_data.npz",
-    "homework/hw7/motor.dat",
-    "lecture26/Lecture 26_2.pdf",
-    "lecture26/Lecture 26_1.pdf",
-    "lecture27/Lecture 27_2.pdf",
-    "lecture23/Lecture 23_3.pdf",
-    "lecture28/Lecture 28_2.pdf",
+    "homework/hw7/cpatrick_me539_hw8.pdf",
+    "homework/hw7/homework-08.html",
     "lecture28/Lecture 28_5.pdf",
+    "lecture28/Lecture 28_4.pdf",
+    "lecture28/Lecture 28_3.pdf",
+    "lecture28/Lecture 28_2.pdf",
+    "lecture28/Lecture 28_1.pdf",
+    "homework/hw7/cpatrick_me539_hw7.pdf",
+    "homework/hw7/homework-07.html",
+    "lecture28/Lecture 28_6.pdf",
+    "lecture25/Lecture 25_6.pdf",
+    "lecture15/intro.md",
+    "_build/html/_sources/lecture15/intro.md",
     "lecture21/intro.md",
     "_build/html/_sources/lecture17/intro.md",
     "lecture17/intro.md",
